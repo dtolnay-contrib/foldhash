@@ -18,13 +18,15 @@ std = []
 [dependencies]
 
 [dev-dependencies]
-criterion = "0.5"
-hashbrown = "0.14"
-uuid = "1.8"
-rand = "0.8"
 ahash = "0.8"
-fxhash = "0.2"
 chrono = "0.4"
+criterion = "0.5"
+fnv = "1"
+fxhash = "0.2"
+hashbrown = "0.14"
+rand = "0.8"
+rustc-hash = "2"
+uuid = "1.8"
 
 [lib]
 bench = false
